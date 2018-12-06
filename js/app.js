@@ -25,3 +25,13 @@ $(document).ready(function() {
   });
 });
 
+$(function() {
+  $('button.navbar-toggler').click(function() {
+    var value = $('body').css('padding-top');
+    if (value === '0px') {
+      $('body').css('padding-top', '+=200');
+    } else {
+      $('body').css('padding-top', '0');
+    }
+  });
+});
