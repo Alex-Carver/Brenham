@@ -58,7 +58,7 @@ p {
     font-family: 'Cantarell', sans-serif;
     font-size: 20px;
     line-height: 23px;
-    margin: 0 0 23px 0;
+    margin: 0 0 20px 0;
     }
 
 
@@ -67,9 +67,10 @@ a:hover{
  
 }
 
-#top-nav{
-    background:#fff;
+#top-nav {
+    background: #500000;
     height: 200px;
+    color: #fff;
 }
 
 header{
@@ -360,9 +361,9 @@ iframe{
 
 /*---Footer Styles----*/
 
-footer{
+footer {
     background: #000;
-    height: auto;
+    height: 320px;
     padding-top: 50px;
 }
 
@@ -388,6 +389,9 @@ li.nav-item-bottom{
     color: #500000;
 }
 
+.copyright{
+    font-size:13px;
+}
 
 /*---Media Queries-----*/
 
@@ -398,14 +402,15 @@ and (min-width : 768px)
 and (max-width : 1024px)  {
 
 #top-nav {
-    background: #fff;
+    background: #500000;
     height: 200px;
     padding-top: 10px;
+    color: #fff;
 }
 
 header {
     position: relative;
-    height: 180px;
+    height: 190px;
     background-color: #fff;
     width: 100%;
 }
@@ -449,6 +454,16 @@ header {
 
 .captionTwo{
     top:0%;
+    background: none;
+}
+
+.copyright{
+    font-size: 12px;
+}
+
+footer{
+    padding-bottom: 50px;
+    height: auto;
 }
 
 
@@ -460,18 +475,27 @@ header {
 and (min-width :  375px) 
 and (max-width :  667px)  {
 
+
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,255,255);
   margin-bottom: 10px;
 } 
 
 #top-nav {
-    background: #fff;
+    background: #500000;
     height: 300px;
+    color: #fff;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .right{
     text-align: left!important;
+}
+
+.center{
+    text-align: center!important;
 }
 
 header {
@@ -479,6 +503,7 @@ header {
     height: 300px;
     background-color: #fff;
     width: 100%;
+
 }
 
 .bg-light {
@@ -495,10 +520,19 @@ header {
   border-color: rgb(255,255,255);
 }
 
+.carousel-caption h1, h2.display2, p{
+    font-size:20px;
+    margin:5px;
+}
+
+.carousel-caption h1{
+    margin:0;
+}
+
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 20px;
+    bottom: 50px;
     top: 0%;
     left: 15%;
     z-index: 10;
@@ -506,14 +540,16 @@ header {
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
+    background-color: rgba(0,0,0,.5);
 }
 
 .carousel-caption h1, h2.display2, p{
     font-size:20px;
+    margin:5px;
 }
 
 .carousel-item {
-    height: 300px;
+    height: 280px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -557,10 +593,9 @@ header {
 }
 
 .captionTwo{
-   margin-top: 0px;
+    top:0%;
+    background: none;
 }
-
-
 
 ul.bottom-list {
     margin: 0;
@@ -582,6 +617,20 @@ iframe{
 .stars{
     display: none;
 }
+
+footer{
+    height: auto;
+    padding-bottom: 30px;
+}
+
+footer p{
+    font-size:15px;
+
+}
+
+.copyright{
+    font-size:10px;
+}
     
 }
 
@@ -596,9 +645,10 @@ and (max-width :  568px)  {
 } 
 
 #top-nav {
-    background: #fff;
+    background: #500000;
     height: 300px;
     padding-top: 5px;
+    color: #fff;
 }
 
 .right{
@@ -625,11 +675,10 @@ header {
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,255,255);
 }
-
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 20px;
+    bottom: 50px;
     top: 0%;
     left: 15%;
     z-index: 10;
@@ -637,10 +686,12 @@ header {
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
+    background-color: rgba(0,0,0,.5);
 }
 
 .carousel-caption h1, h2.display2, p{
     font-size:20px;
+    margin:5px;
 }
 
 .carousel-item {
@@ -692,9 +743,9 @@ header {
 }
 
 .captionTwo{
-   margin-top: 0px;
+    top:0%;
+    background: none;
 }
-
 
 
 ul.bottom-list {
@@ -730,9 +781,10 @@ and (max-width : 480px)  {
 } 
 
 #top-nav {
-    background: #fff;
+    background: #500000;
     height: 320px;
     padding-top: 5px;
+    color: #fff;
 }
 
 .right{
@@ -763,7 +815,7 @@ header {
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 20px;
+    bottom: 50px;
     top: 0%;
     left: 15%;
     z-index: 10;
@@ -771,10 +823,12 @@ header {
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
+    background-color: rgba(0,0,0,.5);
 }
 
 .carousel-caption h1, h2.display2, p{
     font-size:20px;
+    margin:5px;
 }
 
 .carousel-item {
@@ -826,9 +880,9 @@ header {
 }
 
 .captionTwo{
-   margin-top: 0px;
+    top:0%;
+    background: none;
 }
-
 
 
 ul.bottom-list {
@@ -850,6 +904,20 @@ iframe{
 }
 .stars{
     display: none;
+}
+
+footer{
+    height: auto;
+    padding-bottom: 30px;
+}
+
+footer p{
+    font-size:15px;
+
+}
+
+.copyright{
+    font-size:10px;
 }
     
 }
