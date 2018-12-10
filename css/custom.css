@@ -520,48 +520,67 @@ header {
   border-color: rgb(255,255,255);
 }
 
-.carousel-caption h1, h2.display2, p{
-    font-size:20px;
-    margin:5px;
-}
 
-.carousel-caption h1{
-    margin:0;
-}
 
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 50px;
-    top: 0%;
+    bottom: 0%;
+    top: 40%;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff;
+    color: #000;
     text-align: center;
-    background-color: rgba(0,0,0,.5);
+    background-color: transparent;
 }
 
-.carousel-caption h1, h2.display2, p{
+#carouselExampleFade h2.display2{
+    font-size:15px;
+    color: #000;
+}
+
+#carouselExampleFade p{
+    font-size:15px;
+    margin-bottom: 30px;
+    color: #000;
+}
+#carouselExampleFade h1{
     font-size:20px;
-    margin:5px;
+    margin:0px;
+    color: #000;
 }
 
 .carousel-item {
-    height: 280px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    height: 1000px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #500000 no-repeat center center;
+    background-size: 100% 100%;
 }
 
 /* ken burns effect */
 .carousel .carousel-item img {
   -webkit-transition: none;
-  height: 300px;
+
 
 }
 .carousel .carousel-item.active.inactiveUntilOnLoad img,
@@ -678,36 +697,62 @@ header {
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 50px;
-    top: 0%;
+    bottom: 0%;
+    top: 40%;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff;
+    color: #000;
     text-align: center;
-    background-color: rgba(0,0,0,.5);
+    background-color: transparent;
 }
 
-.carousel-caption h1, h2.display2, p{
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #500000 no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#carouselExampleFade h2.display2{
+    font-size:15px;
+    color: #000;
+}
+
+#carouselExampleFade p{
+    font-size:15px;
+    margin-bottom: 30px;
+    color: #000;
+}
+#carouselExampleFade h1{
     font-size:20px;
-    margin:5px;
+    margin:0px;
+    color: #000;
 }
 
 .carousel-item {
-    height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    height: 1000px;
 }
 
 /* ken burns effect */
 .carousel .carousel-item img {
   -webkit-transition: none;
-  height: 300px;
+
 
 }
 .carousel .carousel-item.active.inactiveUntilOnLoad img,
@@ -815,15 +860,23 @@ header {
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 50px;
-    top: 0%;
+    bottom: 0%;
+    top: 40%;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff;
+    color: #000;
     text-align: center;
-    background-color: rgba(0,0,0,.5);
+    background-color: transparent;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #500000 no-repeat center center;
+    background-size: 100% 100%;
 }
 
 .carousel-caption h1, h2.display2, p{
@@ -831,20 +884,43 @@ header {
     margin:5px;
 }
 
+#carouselExampleFade h2.display2{
+    font-size:15px;
+    color: #000;
+}
+
+#carouselExampleFade p{
+    font-size:15px;
+    margin-bottom: 30px;
+    color: #000;
+}
+#carouselExampleFade h1{
+    font-size:20px;
+    margin:0px;
+    color: #000;
+}
+
 .carousel-item {
-    height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    height: 1000px;
 }
 
 /* ken burns effect */
 .carousel .carousel-item img {
   -webkit-transition: none;
-  height: 300px;
+
 
 }
 .carousel .carousel-item.active.inactiveUntilOnLoad img,
