@@ -488,6 +488,7 @@ and (max-width :  667px)  {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 30px;
 }
 
 .right{
@@ -668,6 +669,7 @@ and (max-width :  568px)  {
     height: 300px;
     padding-top: 5px;
     color: #fff;
+    padding-top: 30px;
 }
 
 .right{
@@ -830,6 +832,7 @@ and (max-width : 480px)  {
     height: 320px;
     padding-top: 5px;
     color: #fff;
+    padding-top: 30px;
 }
 
 .right{
