@@ -499,6 +499,12 @@ and (max-width :  667px)  {
     text-align: center!important;
 }
 
+#section1{
+    padding-top: 0px!important;
+    padding-bottom: 50px;
+    margin-top: -120px;
+}
+
 header {
     position: relative;
     height: 300px;
@@ -567,15 +573,16 @@ header {
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
     perspective: 1000px;
-    height: 1000px;
+    height: 800px;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: #500000 no-repeat center center;
-    background-size: 100% 100%;
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%500000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%500000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 /* ken burns effect */
@@ -659,6 +666,12 @@ footer p{
 and (min-width :  320px) 
 and (max-width :  568px)  {
 
+    #section1{
+    padding-top: 0px!important;
+    padding-bottom: 50px;
+    margin-top: -120px;
+}
+
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,255,255);
   margin-bottom: 10px;
@@ -710,13 +723,6 @@ header {
     background-color: transparent;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: #500000 no-repeat center center;
-    background-size: 100% 100%;
-}
 
 #carouselExampleFade h2.display2{
     font-size:15px;
@@ -767,6 +773,13 @@ header {
 
 }
 
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%500000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%500000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
 
 /*---Section 3 Parrallax----*/
 #section3 {
@@ -822,6 +835,12 @@ iframe{
 and (min-width : 320px) 
 and (max-width : 480px)  {
 
+    #section1{
+    padding-top: 0px!important;
+    padding-bottom: 50px;
+    margin-top: -120px;
+}
+
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,255,255);
   margin-bottom: 10px;
@@ -874,12 +893,12 @@ header {
     background-color: transparent;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: #500000 no-repeat center center;
-    background-size: 100% 100%;
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%500000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%500000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .carousel-caption h1, h2.display2, p{
