@@ -117,6 +117,7 @@ header#header{
     z-index: 1030;
 }
 
+/*--Logos--*/
 .logo{
     width:200px;
 }
@@ -586,14 +587,15 @@ header#header {
     background-color: transparent;
 }
 
-#carouselExampleFade h2.display2{
+#carouselExampleFade h2{
     font-size:15px;
     color: #000;
+    margin-bottom: 10px;
 }
 
 #carouselExampleFade p{
     font-size:15px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #000;
 }
 #carouselExampleFade h1{
@@ -780,14 +782,15 @@ header#header {
 }
 
 
-#carouselExampleFade h2.display2{
+#carouselExampleFade h2{
     font-size:15px;
     color: #000;
+    margin-bottom: 10px;
 }
 
 #carouselExampleFade p{
     font-size:15px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #000;
 }
 #carouselExampleFade h1{
@@ -963,19 +966,17 @@ header#header {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%500000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.carousel-caption h1, h2.display2, p{
-    font-size:20px;
-    margin:5px;
-}
 
-#carouselExampleFade h2.display2{
+
+#carouselExampleFade h2{
     font-size:15px;
     color: #000;
+    margin-bottom: 10px;
 }
 
 #carouselExampleFade p{
     font-size:15px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #000;
 }
 #carouselExampleFade h1{
