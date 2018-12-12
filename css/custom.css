@@ -519,7 +519,7 @@ and (max-width :  667px)  {
 
 #top-nav {
     background: #f2c236;
-    height: 280px;
+    height: 300px;
     color: #000;
     text-align: center;
     margin-right: auto;
@@ -543,7 +543,7 @@ and (max-width :  667px)  {
 
 header#header {
     position: relative;
-    height: 305px;
+    height: 300px;
     background-color: #fff;
     width: 100%;
 }
@@ -725,7 +725,7 @@ and (max-width :  568px)  {
 
 #top-nav {
     background: #f2c236;
-    height: 280px;
+    height: 300px;
     padding-top: 5px;
     color: #000;
     padding-top: 10px;
@@ -738,7 +738,7 @@ and (max-width :  568px)  {
 
 header#header {
     position: relative;
-    height: 305px;
+    height: 300px;
     background-color: #fff;
     width: 100%;
 }
@@ -905,7 +905,7 @@ and (max-width : 480px)  {
 
 #top-nav {
     background: #f2c236;
-    height: 280px;
+    height: 300px;
     padding-top: 5px;
     color: #000;
 }
@@ -917,7 +917,7 @@ and (max-width : 480px)  {
 
 header#header {
     position: relative;
-    height: 305px;
+    height: 300px;
     background-color: #fff;
     width: 100%;
 }
