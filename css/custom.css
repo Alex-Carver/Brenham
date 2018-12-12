@@ -905,10 +905,9 @@ and (max-width : 480px)  {
 
 #top-nav {
     background: #f2c236;
-    height: 320px;
+    height: 300px;
     padding-top: 5px;
     color: #000;
-    padding-top: 10px;
 }
 
 .right{
