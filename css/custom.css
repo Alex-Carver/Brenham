@@ -1317,6 +1317,76 @@ ul.bottom-list{
   
 }
 
+/*iPhone 5 landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 580px) and (orientation : landscape) { 
+
+#top-nav {
+    background: #500000;
+    height: 300px;
+    color: #000;
+    padding-top: 20px;
+}
+
+
+header#header {
+    position: relative;
+    height: 300px;
+    background-color: #fff;
+    width: 100%;
+}
+
+/*-------Section1 Styles------*/
+#section1{
+    padding-top: 0px!important;
+    padding-bottom: 50px;
+    margin-top: 0px;
+}
+
+
+/*-------Carousel Styles------*/
+#carouselExampleFade h1 {
+    font-size: 20px;
+    margin: 0px;
+    color: #fff;
+}
+
+#carouselExampleFade h2 {
+    color: #fff;
+}
+
+#carouselExampleFade p {
+    color: #fff;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    top: 15%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+   text-shadow: 1px 1px 2px rgba(175, 175, 175, 1);
+   }
+
+
+ul.bottom-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+}
+
+#section1{
+  padding-top: 20px!important;
+ 
+}
+  
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px){
     body{
     padding-top: 0px;
@@ -1622,7 +1692,6 @@ header#header{
    font-size:15px;
      margin:0px;
 }
-
 
 
 /*-----Button Styles------*/
