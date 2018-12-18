@@ -218,7 +218,7 @@ header#header{
 .carousel-item {
   height: 100vh;
   min-height: 250px;
-  max-height: 600px;
+  height: auto;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -227,6 +227,10 @@ header#header{
   width: 100%;
 
 
+}
+
+#section1{
+  margin:0px;
 }
 
 
@@ -625,7 +629,7 @@ header#header{
 .carousel-item {
   height: 100vh;
   min-height: 250px;
-  max-height: 600px;
+  height: auto;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -676,8 +680,8 @@ header#header{
 }
 
 #section1{
-  padding-top: 0px!important;
-  margin-top: -130px;
+  padding-top: 20px!important;
+ 
 }
 
 
@@ -829,6 +833,11 @@ and (max-width: 676px)
 {
 body{
     padding-top: 0px;
+}
+
+#section1{
+  padding-top: 20px!important;
+ 
 }
 
 .gridContainer {
@@ -1049,53 +1058,6 @@ header#header{
 }
 
 
-/*-------Carousel Styles------*/
-.carousel-item {
-  height: 100vh;
-  min-height: 250px;
-  max-height: 600px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-
-
-}
-
-#carouselExampleFade h1{
-  color: #000;
-}
-
-#carouselExampleFade h2{
-  color: #000;
-}
-#carouselExampleFade p{
-  color: #000;
-}
-
-.carousel-caption {
-    position: absolute;
-    right: 15%;
-    bottom: 20px;
-    top: 35%;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-   text-shadow: 1px 1px 2px rgba(175, 175, 175, 1);
-   }
-
-   .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%500000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%500000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
 
 /*---ken burns effect disabled---*/
 .carousel .carousel-item img {
@@ -1113,6 +1075,66 @@ header#header{
 
 }
 
+.carousel-item {
+    height: 100vh;
+    min-height: 250px;
+    height: auto;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    top: 0%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+   text-shadow: 1px 1px 2px rgba(175, 175, 175, 1);
+   }
+
+   .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+  #carouselExampleFade h1{
+  color: #fff;
+  font-size:15px;
+  margin:0px;
+}
+
+#carouselExampleFade h2{
+  color: #fff;
+   font-size:15px;
+     margin:0px;
+}
+#carouselExampleFade p{
+  color: #fff;
+   font-size:15px;
+     margin:0px;
+}
 
 
 
@@ -1286,6 +1308,11 @@ ul.bottom-list{
     padding: 0;
     list-style-type: none;
     display: inline-flex;
+}
+
+#section1{
+  padding-top: 20px!important;
+ 
 }
   
 }
