@@ -36,7 +36,7 @@ $(function() {
   $('button.navbar-toggler').click(function() {
     var value = $('body').css('padding-top');
     if (value === '0px') {
-      $('body').css('padding-top', '+=31');
+      $('body').css('padding-top', '+=115');
     } else {
       $('body').css('padding-top', '0');
     }
