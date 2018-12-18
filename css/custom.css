@@ -1,5 +1,5 @@
 ﻿
-@media only screen and (min-width: 1100px) {
+
 
   body{
     padding-top: 0px;
@@ -395,10 +395,9 @@ p.right{
 }
 
 
-}
 
 @media only screen and (min-width: 768px) 
-and (max-width: 1024px){
+and (max-width: 1100px){
 
 body{
     padding-top: 0px;
@@ -804,28 +803,22 @@ p.right{
   color: #fff;
 }
 
-/*------ken burns effect------*/
+/*---ken burns effect disabled---*/
 .carousel .carousel-item img {
-  -webkit-transition: all 22s;
-  -moz-transition: all 22s;
-  -o-transition: all 22s;
-  transition: all 22s;
+  -webkit-transition: none;
+
+
 }
 .carousel .carousel-item.active.inactiveUntilOnLoad img,
 .carousel .carousel-item img {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform: none;
+
 }
 .carousel .carousel-item.active img {
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: none;
+
 }
+
 
 }
 
